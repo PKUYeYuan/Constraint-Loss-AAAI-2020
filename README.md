@@ -1,4 +1,7 @@
-# Constraint-Loss-AAAI-2020
+Constraint-Loss-AAAI-2020
+
+=======================================
+
 The source code and dataset for our paper "[Integrating Relation Constraints with Neural Relation Extractors](https://arxiv.org/abs/1911.11493)" which is publicated at AAAI 2020.
 
 ### Methods
@@ -9,7 +12,7 @@ And the framework and experimental results are shown as follows:
 
 ![Model Framework](https://github.com/PKUYeYuan/Constraint-Loss-AAAI-2020/blob/master/FrameworkAndExpFigures/FrameworkFigure.jpg)
 
-<center> Fig1: Model Framework </center>
+Fig1: Model Framework 
 
 ![Experimental Results](https://github.com/PKUYeYuan/Constraint-Loss-AAAI-2020/blob/master/FrameworkAndExpFigures/ExperimentResult.jpg)
 
