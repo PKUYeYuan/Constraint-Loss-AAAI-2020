@@ -24,7 +24,32 @@ Tensorflow version == 1.13.1
 
 ### Usage:
 
-TODO
+- ACNN model
+  - Configuration instruction:
+    - "**-mode**" argument is used to specify "Train" or "Test"
+    - "**-train_mode**" argument is used to specify the training mode ("Base" or "Sem" or "Coh")
+    - "**-dataset**" argument is used to decide the dataset to use (English or Chinese) 
+    - And other configurations can be find in our source code.
+  - Some running examples:
+    - *Train* a model on *English dataset* in *Sem* mode: 
+      - First you need go into the ACNN/src directory, and then run the following command:
+      - python main.py -mode=Train -dataset=English -train_mode=Sem
+    - *Test* a model on *English dataset* using pre-trained models (You need to download the pre-trained models from [here](https://drive.google.com/drive/folders/1-Fs1fI6j_ZRzaBN8mnvD5Bv0XrWqryrZ?usp=sharing) and put them in ACNN/SavedModel)
+      - First you need go into the ACNN/src directory, and then run the following command:
+      - python main.py -mode=Test -dataset=English
+- APCNN model
+  - Configuration instruction:
+    - "**-mode**" argument is used to specify "Train" or "Test"
+    - "**-train_mode**" argument is used to specify the training mode ("Base" or "Sem" or "Coh")
+    - "**-dataset**" argument is used to decide the dataset to use (English or Chinese) 
+    - And other configurations can be find in our source code.
+  - Some running examples:
+    - *Train* a model on *English dataset* in *Sem* mode: 
+      - First you need go into the APCNN/src directory, and then run the following command:
+      - python main.py -mode=Train -dataset=English -train_mode=Sem
+    - *Test* a model on *English dataset* using pre-trained models (You need to download the pre-trained models from [here](https://drive.google.com/drive/folders/1-Fs1fI6j_ZRzaBN8mnvD5Bv0XrWqryrZ?usp=sharing) and put them in APCNN/SavedModel)
+      - First you need go into the APCNN/src directory, and then run the following command:
+      - python main.py -mode=Test -dataset=English
 
 ### Datasets and Pre-trained Models:
 
@@ -32,7 +57,7 @@ Note that here we only exhibit some demo data to make others can run the code su
 
 ### Citation:
 
-If you use the code, please cite the following paper: **"[Integrating Relation Constraints with Neural Relation Extractors](https://arxiv.org/abs/1911.11493)"
+If you use the code, please cite the following paper: **"[Integrating Relation Constraints with Neural Relation Extractors](https://arxiv.org/abs/1911.11493)"**
 
 ```reStructuredText
 @article{ye2019integrating,
