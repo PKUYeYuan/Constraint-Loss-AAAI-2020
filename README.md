@@ -7,11 +7,11 @@ In this paper, we propose a unified framework to effectively integrate discrete 
 
 And the framework and experimental results are shown as follows:
 
-![Model Framework](.\FrameworkAndExpFigures\FrameworkFigure.jpg)
+![Model Framework](https://github.com/PKUYeYuan/Constraint-Loss-AAAI-2020/blob/master/FrameworkAndExpFigures/FrameworkFigure.jpg)
 
 <center> Fig1: Model Framework </center>
 
-![Experimental Results](.\FrameworkAndExpFigures\ExperimentResult.jpg)
+![Experimental Results](https://github.com/PKUYeYuan/Constraint-Loss-AAAI-2020/blob/master/FrameworkAndExpFigures/ExperimentResult.jpg)
 
 <center> Fig2: Experimental Results </center>
 
